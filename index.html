@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tienda — Producto A & Producto B</title>
+  <link rel="shortcut icon" href="ico vats.ico">
+  <!-- Fuente (Google Fonts) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">Tecnologías VATS</a>
+      <nav class="nav">
+        <a href="#productos">Productos</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#gmail" class="cta">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Productos destacados</h1>
+          <p>Calidad, garantía y envío rápido. Escoge tu producto y compra con confianza.</p>
+          <a href="#productos" class="btn btn-primary">Ver productos</a>
+        </div>
+        <div class="hero-img" aria-hidden="true">
+          <!-- imagen de presentación -->
+          <img src="productosJuntos.jpeg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!-- Productos -->
+    <section id="productos" class="container productos">
+      <h2 class="section-title">Nuestros productos</h2>
+
+      <div class="grid">
+        <!-- Producto 1 -->
+        <article class="card">
+          <img class="card-img" src="smartBox light 2.jpeg" alt="Producto A">
+          <div class="card-body">
+            <h3>Producto A — SmartBox Light</h3>
+            <p class="price">USD <strong>50.00$</strong></p>
+            <p class="desc"><b>Convierte tu casa en un hogar inteligente. </b></p>
+            <p class="desc">Controla tus focos, ventiladores y demás dispositivos desde tu celular, sin importar dónde te encuentres.</p>
+            <ul class="meta">
+              <li><strong>Garantía:</strong> 3 meses</li>
+             
+            </ul>
+
+            <div class="card-actions">
+                        <a class="btn btn-primary"  href="https://wa.me/593989807830?text=Hola buen día, quisiera solicitar el producto SmartBox Light" target="_blank" >Adquirir</a>
+
+              <a class="btn btn-secondary" href="#detalleA">Ver detalle</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Producto 2 -->
+        <article class="card">
+          <img class="card-img" src="lightBox 1.png" alt="Producto B">
+          <div class="card-body"> 
+            <h3>Producto B — Light box</h3>
+            <p class="price">USD <strong>25.00$ </strong></p>
+            <p class="desc"><b>Convierte cualquier espacio en un lugar inteligente. </b></p>
+            <p class="desc">Este sensor activa la luz cuando detecta movimiento y te permite controlar el tiempo y alcance de detección, ideal para hogares, oficinas y exteriores.</p>
+            <ul class="meta">
+              <li><strong>Garantía:</strong> 3 meses</li>
+              
+            </ul>
+
+            <div class="card-actions">
+              <a class="btn btn-primary"  href="https://wa.me/593989807830?text=Hola buen día, quisiera solicitar el producto Light box" target="_blank" >Adquirir</a>
+
+               <a class="btn btn-secondary" href="#detalleB">Ver detalle</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Detalles (anclas simples) -->
+    <section id="detalleA" class="container detalle">
+      <h2>Detalle — Producto A</h2>
+      <div class="detalle-grid">
+        <img src="smartBox app 1.png" alt="Detalle Producto A">
+        <div>
+          <h3>SmartBox Light — Tu hogar, siempre a tu alcance</h3>
+          <p>Dispositivo inteligente que te permite encender y apagar tus focos desde el celular, sin importar dónde te encuentres. Ideal para automatizar tu hogar y controlar la iluminación con solo un toque.</p>
+          <ul>
+            <li><b>Capacidad de control:</b> 4, 8 o 12 salida.</li>
+            <li><b>Colores:</b> Negro o gris.</li>
+           
+          </ul>
+        <p>El usuario puede personalizar la aplicación móvil para adaptarla a su comodidad o, si lo prefiere, utilizar una versión estándar lista para usar.</p>
+
+          <a class="btn btn-primary"  href="https://wa.me/593989807830?text=Hola buen día, quisiera solicitar el producto SmartBox Light" target="_blank" >Solicitar compra</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="detalleB" class="container detalle">
+      <h2>Detalle — Producto B</h2>
+      <div class="detalle-grid">
+        <img src="ligthBox 2.jpeg" alt="Detalle Producto B">
+        <div>
+          <h3>Light box — No se le escapa ni un movimiento</h3>
+          <p>Dispositivo inteligente con sensor de movimiento que enciende automáticamente tus focos o lámparas al detectar presencia. Permite ajustar el tiempo de encendido y la distancia de detección, brindando comodidad, ahorro de energía y mayor seguridad en tu hogar o negocio.</p>
+          <ul>
+            <li><b>Alcance máximo:</b> 7 mts</li>
+            <li><b>Tiempo máximo:</b> 5 min</li>
+            <li><b>Colores:</b> Negro o gris.</li>
+          </ul>
+          <a class="btn btn-primary"  href="https://wa.me/593989807830?text=Hola buen día, quisiera solicitar el producto Light box" target="_blank" >Solicitar compra</a>
+        </div>
+      </div>
+    </section>
+    
+    <section id="detalleB" class="container detalle">
+      <h2>Detalle — Producto C</h2> 
+      <div class="detalle-grid">
+        <img src="canda.png" alt="Detalle Producto C">
+        <div>
+          <h3>SoundSwitch — Tu luz, a la velocidad del sonido</h3>
+          <p>Convierte tus aplausos en acción. Con este dispositivo inteligente, un simple sonido basta para encender tus luces o activar tus aparatos eléctricos. Olvídate de interruptores y controles remotos: ahora, cada aplauso da vida a tu hogar, combinando comodidad, diversión y tecnología al alcance de tu mano.</p>
+          
+          <p style="color: #FFC107;"><b>Próximamente disponible — asegura el tuyo</b></p>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="container sobre">
+      <h2>Sobre nosotros</h2>
+      <p><b>Tecnologías VATS</b> es un negocio nacional ecuatoriano que diseña y desarrolla productos electrónicos innovadores, creados para ayudar a las personas a automatizar sus <b>hogares y oficinas</b>, transformándolos en espacios inteligentes, cómodos y seguros.
+        Nuestro objetivo es hacer tu vida más cómoda, segura y eficiente, ofreciendo productos confiables y servicios personalizados según tus necesidades. Con <b>Tecnologías VATS</b>, tu hogar no solo se vuelve inteligente, sino que también se adapta a tu estilo de vida.
+      </p>
+      <img class="card-img" src="icon tecnologias vats.png" alt="Tecnologías vats">
+
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container" id="gmail">
+      <p>© <span id="year"></span> Tecnologías VATS — Todos los derechos reservados</p>
+      <p>Contacto: <a href="#gmail">vats2003bc@gmail.com</a></p>
+    </div>
+  </footer>
+
+  <!-- Pequeño script solo para año actual y comportamiento accesible (no obligatorio) -->
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
